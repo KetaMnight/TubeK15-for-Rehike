@@ -9,3 +9,5 @@ Then install stylus from either the [Chrome Web Store](https://chrome.google.com
 Then click on this [link](https://github.com/KetaMnight/TubeK15-for-Rehike/raw/main/TubeK15.user.css) to install the userstyle.
 
 ### **Screenshots**
+![image](https://github.com/KetaMnight/TubeK15-for-Rehike/blob/main/screenshot1.png?raw=true)
+![image](https://github.com/KetaMnight/TubeK15-for-Rehike/blob/main/screenshot2.png?raw=true)
