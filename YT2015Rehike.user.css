@@ -1,0 +1,169 @@
+/* ==UserStyle==
+@name           YouTube 2015 for Rehike
+@namespace      github.com/KetaMnight/YouTube-2015-for-Rehike
+@version        1.0.0
+@description    An attempt to bring back the 2015 layout to Rehike
+@author         KnetaMight
+==/UserStyle== */
+#masthead-search .search-btn-component .yt-uix-button-content {
+	background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfli_XxZt.png) -145px -287px;
+	margin-top: 2px;
+}
+ 
+#yt-masthead #logo-container .logo,
+#footer-logo .footer-logo-icon {
+	background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfli_XxZt.png) -167px -205px;
+	width: 72px;
+	height: 30px;
+}
+ 
+#appbar-guide-button {
+	height: 28px;
+	width: 46px;
+	margin-top: 2px;
+	margin-left: -1px;
+}
+ 
+#yt-masthead .yt-masthead-logo-container {
+	width: 200px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: Left;
+}
+ 
+#appbar-guide-button .yt-uix-button-icon-wrapper::after {
+	content: '';
+	display: inline-block;
+	border-width: 3px 3px 0;
+	border-top-color: #b8b8b8 !important;
+	border-color: transparent;
+	border-style: solid;
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+ 
+#masthead-positioner:hover #appbar-guide-button .yt-uix-button-icon-wrapper::after {
+	border-top-color: #666 !important;
+}
+ 
+#masthead-positioner:hover #appbar-guide-button {
+	background: #f8f8f8;
+	border-color: #d3d3d3;
+}
+ 
+#appbar-guide-button:hover {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+ 
+#appbar-guide-button:active {
+	box-shadow: inset 0 1px 0 #ddd;
+}
+ 
+#appbar-guide-button:hover:focus,
+#appbar-guide-button:focus {
+	box-shadow: 0 0 0 2px rgba(27,127,204,0.4);
+}
+ 
+.yt-uix-button-icon-wrapper {
+	margin-left: -2px;
+}
+ 
+#yt-masthead-container {
+	padding-bottom: 10px;
+}
+ 
+#masthead-search-term::placeholder {
+	color: transparent;
+}
+ 
+#masthead-search .search-btn-component {
+	width: 65px;
+}
+ 
+.related-list-item .thumb-wrapper,
+.related-list-item .thumb-wrapper img,
+.yt-thumb-168,
+.yt-thumb-168 img {
+	width: 120px;
+}
+ 
+.related-list-item .thumb-wrapper,
+.related-list-item .thumb-wrapper img,
+.yt-uix-simple-thumb-related,
+.yt-thumb-168,
+.yt-thumb-168 img {
+	height: 68px;
+}
+ 
+.appbar-hidden #masthead-positioner-height-offset {
+	height: 50px;
+}
+ 
+.related-list-item .content-link {
+	min-height: 68px;
+}
+ 
+.related-list-item .content-wrapper {
+	margin-left: 133px;
+}
+ 
+.video-list .video-list-item .title {
+	font-size: 13px;
+	max-height: 2.4em;
+}
+ 
+.yt-subscription-button-subscriber-count-branded-horizontal {
+	margin-left: -1px;
+}
+ 
+.yt-pl-thumb-overlay-text {
+	font-size: 11px;
+}
+ 
+.yt-pl-thumb .formatted-video-count-label b {
+	font-size: 14px;
+}
+ 
+.yt-pl-thumb .formatted-video-count-label {
+	font-size: 8px;
+}
+ 
+.yt-pl-icon.yt-pl-icon-mix {
+	background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl3T2Agh.png) -393px 0;
+	background-size: auto;
+	width: 24px;
+	height: 24px;
+}
+ 
+.yt-pl-icon {
+	background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl3T2Agh.png) -863px -75px;
+	background-size: auto;
+	width: 18px;
+	height: 18px;
+}
+ 
+.action-panel-trigger-share::before {
+  background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl3T2Agh.png) -261px -13px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+}
+ 
+#startSegmentButton,
+#cancelSegmentButton,
+#deleteButton,
+#submitButton,
+#infoButton,
+.standalone-collection-badge-renderer-text,
+.ytp-chapter-container {
+	display: none !important;
+}
+ 
+.yt-uix-checkbox-on-off {
+	vertical-align: inherit;
+}
+ 
+.ytp-scrubber-container {
+	left: 2px;
+}
